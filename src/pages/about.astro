@@ -1,7 +1,10 @@
 ---
-
+const pageTitle = 'about me'
+const firstname = 'joel'
+const skills = ['guitar', 'mountain bikes']
 ---
 
+<title>{pageTitle}</title>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -13,6 +16,8 @@
 	<body>
 	<a href ="/">Home</a>
 	<a href="/about/">About</a>
-		<h1>my website</h1>
+		<h1>{pageTitle}</h1>
+		<h1>this is my about page!</h1>
 	</body>
+	<p1> my name is {firstname}. My skills are {skills} </p1>
 </html>
