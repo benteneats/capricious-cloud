@@ -1,4 +1,5 @@
 ---
+import navigation from "../components/navigation.astro";
 const pageTitle = 'about me'
 const firstname = 'joel'
 const skills = ['guitar', 'mountain bikes']
@@ -14,8 +15,7 @@ const skills = ['guitar', 'mountain bikes']
 		<title>Astro</title>
 	</head>
 	<body>
-	<a href ="/">Home</a>
-	<a href="/about/">About</a>
+		<navigation/>
 		<h1>{pageTitle}</h1>
 		<h1>this is my about page!</h1>
 	</body>
