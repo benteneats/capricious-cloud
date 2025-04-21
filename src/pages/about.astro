@@ -7,23 +7,17 @@ const pageTitle = 'About Me';
 const firstname = 'Joel';
 const skills = ['guitar', 'mountain bikes'];
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <Header />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-    <Navigation />
-    <main>
-      <h1>{pageTitle}</h1>
-      <h2>This is my about page!</h2>
-      <p>My name is {firstname}. My skills are {skills.join(', ')}.</p>
-    </main>
-    <Footer />
-  </body>
-</html>
+<Header />
+<meta charset="utf-8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
+<title>{pageTitle}</title>
+
+<Navigation />
+<main>
+  <h1>{pageTitle}</h1>
+  <h2>This is my about page!</h2>
+  <p>My name is {firstname}. My skills are {skills.join(', ')}.</p>
+</main>
+<Footer />
