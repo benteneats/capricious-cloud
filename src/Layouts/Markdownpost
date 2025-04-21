@@ -1,0 +1,7 @@
+---
+import Base_layout from ../Layouts/Base_layout.astro';
+const = { frontmatter } = astro.props;
+---
+<Base_layout pageTitle = {pageTitle}>
+<p> Written by {frontmatter.author}</p>
+</Base_layout>
